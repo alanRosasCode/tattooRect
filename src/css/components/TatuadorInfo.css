@@ -1,0 +1,42 @@
+/* src/styles/tatuadorInfo.css */
+
+.tatuador-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    background-color: #111;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.tatuador-descripcion {
+    flex: 1;
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.tatuador-descripcion h2 {
+    margin-bottom: 12px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.tatuador-video {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tatuador-video video {
+    width: 100%;
+    max-width: 200px;
+    /* ✅ reducido aún más */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #000;
+    object-fit: cover;
+}
