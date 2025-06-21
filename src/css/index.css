@@ -1,2 +1,5 @@
 @import url("./components/Header.css");
 @import url("./components/Gallery.css");
+@import url("./components/Navbar.css");
+@import url("./components/Footer.css");
+@import url("./normalize.css");
