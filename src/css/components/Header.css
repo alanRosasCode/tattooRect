@@ -1,0 +1,57 @@
+.headerHeaderImgTattoo {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-header-bg);
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* margin: 20px 0; */
+    transition: background-color 0.3s ease;
+}
+
+.headerImgTattoo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.8);
+}
+
+.headerImgTattooDiv{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.headerImgTattooH1{
+    position: relative;
+    z-index: 1;
+    font-size: 3.5rem;
+    text-align: center;    
+}
+.headerImgTattooH2 {
+    position: relative;
+    z-index: 1;
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+.headerImgTattooHGlobal{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(80, 72, 72, 0.212);
+    padding: 10px;
+}
